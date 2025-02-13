@@ -1,0 +1,105 @@
+Proof of Concept (POC) Document
+Project Overview
+This Proof of Concept (POC) aims to create a basic user management system for freshers in the company to understand and implement fundamental authentication and CRUD operations. The application will be built using React (or Angular) for the frontend, Node.js (or Python/Java/.NET) for the backend, and MySQL for the database.
+
+Features
+1.	Authentication System
+○	Login
+○	Signup
+○	Forgot Password
+○	Update Password
+2.	User Management
+○	Add User (Fields: Name, DOB, Password, Profile Image)
+○	Edit User
+○	Delete User
+○	List Users (with Search & Sort functionality for all fields)
+
+
+Tech Stack
+●	Frontend: React.js / Angular
+●	Backend: Node.js / Python / Java / .NET / PHP
+●	Database: MySQL
+●	Authentication: JWT / OAuth2.0
+●	File Storage: Local / Cloud (AWS S3, Firebase Storage)
+●	API Communication: REST API
+
+
+Tasks & Subtasks
+1.	Authentication Module
+1.1	Signup
+
+●	User registration form with Name, Email, Password, Confirm Password
+ 
+●	Password hashing (BCrypt)
+●	Save user details in MySQL
+●	Send verification email (optional)
+
+1.2	Login
+
+●	User authentication using Email & Password
+●	JWT Token generation for session management
+
+1.3	Forgot Password
+
+●	Input email to request password reset
+●	Send password reset link via email
+●	Implement reset password functionality
+
+1.4	Update Password
+
+●	Change password from profile settings
+●	Validate old password before updating
+
+
+2.	User Management Module
+2.1	Add User
+
+●	Form to enter user details (Name, DOB, Password, Profile Image)
+●	Password encryption before saving
+●	Store image in local/cloud storage
+
+2.2	Edit User
+
+●	Fetch user details for modification
+●	Allow updating any field
+
+2.3	Delete User
+
+●	Soft delete or permanent delete option
+
+2.4	List Users
+
+●	Display user list with Name, DOB, Profile Image
+●	Implement Search on all fields
+●	Implement Sort functionality on all fields
+
+ 
+UI Sections
+1.	Login Page
+●	Email & Password input fields
+●	"Forgot Password" link
+●	"Signup" button
+
+2.	Signup Page
+●	Name, Email, Password, Confirm Password fields
+●	"Sign Up" button
+
+3.	Forgot Password Page
+●	Email input field
+●	"Send Reset Link" button
+
+4.	User Management Page
+●	Add User Form: Name, DOB, Password, Profile Image upload
+●	Edit User Form: Pre-filled form to update user details
+●	User List Table: Displays all users with search & sort
+
+
+Summary
+This POC provides freshers with a fundamental understanding of authentication, user management, and database operations. It also helps them explore technologies like React, Node.js, and MySQL in a real-world application setup.
+
+
+
+Submission -
+
+Code Repository Access of Frontend Code Repository Access of APIs Database Schema of MySQL
+APIs documentation ( postmen / swagger ) URL
