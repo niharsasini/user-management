@@ -11,11 +11,13 @@ const errorHandler = require('./middlewares/errorMiddleware');
 
 const app = express();
 
+app.use(cors());
+
 // Middlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-  origin: process.env.CORS_ORIGIN || 'http://localhost:3000'
+  origin:"*",
 }));
 app.use(helmet());
 app.use(morgan('dev'));

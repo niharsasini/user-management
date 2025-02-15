@@ -54,10 +54,10 @@ exports.signupValidation = [
       }
       return true;
     }),
-  body('profileImage')
-    .optional()
-    .isURL()
-    .withMessage('Profile image must be a valid URL')
+  // body('profileImage')
+  //   .optional()
+  //   .isURL()
+  //   .withMessage('Profile image must be a valid URL')
 ];
 
 exports.loginValidation = [

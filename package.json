@@ -26,8 +26,11 @@
     "sequelize": "^6.37.5"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.20",
     "eslint": "^9.20.1",
     "nodemon": "^3.1.9",
-    "sequelize-cli": "^6.6.2"
+    "postcss": "^8.5.2",
+    "sequelize-cli": "^6.6.2",
+    "tailwindcss": "^4.0.6"
   }
 }

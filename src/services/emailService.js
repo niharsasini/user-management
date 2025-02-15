@@ -32,6 +32,7 @@ exports.sendPasswordResetEmail = async (email, resetToken) => {
     await transporter.verify();
     
     const resetUrl = `${process.env.FRONTEND_URL}/reset-password?token=${resetToken}`;
+    console.log(process.env.FRONTEND_URL);
     
     const mailOptions = {
       from: {
